@@ -2,6 +2,8 @@
 Revival and Development of Heiser–Pratt Hypersonic Propulsion Models Utilizing Python
 Title: HAP Model Utilities — Three Python GUIs (Stations, Burner, Trajectory)
 
+MAKE SURE to Run Each Module Seperately by Copy and Paste 
+
 Overview
 This package contains three small desktop applications built with Python and Tkinter. They are intended for quick exploration of hypersonic airbreathing propulsion ideas: station-by-station thrust metrics, a 1-D burner integrator, and a trajectory pre-calculator. Each tool opens as a simple GUI and prints results clearly.
 
