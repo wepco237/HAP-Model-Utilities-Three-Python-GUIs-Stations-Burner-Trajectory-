@@ -153,7 +153,7 @@ M3: station-3 Mach number
 V3: station-3 velocity in m/s
 
 How to Run
-Option A — Run locally on your computer (recommended for Tkinter windows)
+Run locally on your computer (recommended for Tkinter windows)
 
 Install Python 3.9 or newer.
 
@@ -170,29 +170,7 @@ Windows: install the standard Python from python.org.
 
 Ubuntu/Debian: sudo apt-get install python3-tk
 
-Fedora: sudo dnf install python3-tkinter
 
-macOS (Homebrew Python): brew install python-tk@3.x (match your Python version)
-
-Save each GUI as its own file and run:
-
-python thrust_function_gui.py
-python burner_gui.py
-python trajectory_gui.py
-
-Option B — Use online tools
-
-Tkinter is a desktop GUI toolkit, so pure browser notebooks are not ideal. These options can work:
-
-Replit (Tkinter template): Create a new Python repl using the “Tkinter” template. Paste the code and click Run.
-
-GitHub Codespaces with VS Code desktop forwarding or X11: Advanced option; requires GUI forwarding setup.
-
-Local Jupyter Notebook: You can run the burner solver core inside a notebook and use matplotlib inline, but the Tkinter windows themselves are best run as standalone scripts.
-
-If you need a non-GUI version for browser notebooks, I can provide CLI wrappers that print results and skip window creation.
-
-Notes and Good Practices
 
 Units: keep inputs and outputs in the units listed above to avoid invalid states.
 
